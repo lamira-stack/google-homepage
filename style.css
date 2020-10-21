@@ -1,0 +1,19 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    background-color: red;
+}
+
+.flex-item {
+    background-color: green;
+    margin: 25%
+}
+
+.right {
+    float: right;
+}
+
+.blue-button {
+    background-color: blue;
+}
