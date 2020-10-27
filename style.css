@@ -1,16 +1,42 @@
-.flex-container {
+.nav {
     display: flex;
-    flex-direction: row;
-    width: 25%;
-    height: 10%;
-    margin-left: auto;
-    background-color: red;
+    float: right;
+    text-align: center;
+    align-items: center;
+    height: 3em;
 }
 
-.flex-item {
+
+.nav-element {
+    font-family: "arial", sans-serif;
+    font-size: 0.8rem;
+    width: 100%;
+}
+
+#main-image {
+    /*background-color: red;*/
+    padding-top: 25%;
+    text-align: center;
+}
+
+
+
+
+ #blue-button {
+    background-color: blue;
+    height: 50%;
+}
+
+/*#gmail-test {
     background-color: green;
 }
 
-.blue-button {
-    background-color: blue;
+#images-test {
+    background-color: yellow;
 }
+
+#square {
+    background-color: purple;
+}
+
+*/
