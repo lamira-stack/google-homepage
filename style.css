@@ -11,32 +11,90 @@
     font-family: "arial", sans-serif;
     font-size: 0.8rem;
     width: 100%;
+    padding: 0.5rem;
+}
+
+#sign-in {
+    color: white;
 }
 
 #main-image {
-    /*background-color: red;*/
     padding-top: 25%;
     text-align: center;
 }
 
-
-
-
  #blue-button {
-    background-color: blue;
+    background-color: #4285f4;
     height: 50%;
 }
 
-/*#gmail-test {
-    background-color: green;
+.button-container {
+    height: 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
-#images-test {
-    background-color: yellow;
+.button {
+    background-color: royalblue;
+    height: 100%;
+    margin-left: 1em;
+    background-color: #f2f2f2;
+    color: #5F6368;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+
 }
 
-#square {
-    background-color: purple;
+
+.footer {
+    width: 100%;
+    height: 8%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #f2f2f2;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-*/
+.footer-upper {
+    display: flex;
+    align-items: center;
+    height: 50%;
+    border-top: 0.1em solid #e4e4e4;
+    border-bottom: 0.1em solid #e4e4e4;
+    color: rgba(0,0,0,.54);
+    margin-left: 2em;
+}
+
+.footer-down {
+    display: flex;
+    align-items: center;
+    height: 50%;
+    border-bottom: 0.1em solid #e4e4e4;
+}
+
+.footer-left {
+    width: 50%;
+    margin-left: 2em;
+}
+
+.footer-right {
+    width: 50%;
+    text-align: right;
+    margin-right: 2em;
+}
+
+.link {
+    color: #5f6368;
+    text-decoration: none;
+    margin-left: 1em;
+}
+
+.first {
+    margin-left: 0em;
+}
