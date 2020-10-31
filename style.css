@@ -28,8 +28,23 @@
     height: 50%;
 }
 
+#searchbar-wrapper {
+    display: flex;
+    height: 2.5em;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+#searchbar {
+    width: 50%;
+    border-style: solid;
+    border-color: rgba(0,0,0,.54);
+    border-radius: 100px;
+}
+
 .button-container {
     height: 2.5em;
+    margin-top: 2em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39,6 +54,7 @@
 .button {
     background-color: royalblue;
     height: 100%;
+    width: 10em;
     margin-left: 1em;
     background-color: #f2f2f2;
     color: #5F6368;
@@ -46,7 +62,12 @@
     border-radius: 4px;
     font-family: arial,sans-serif;
     font-size: 14px;
+}
 
+.change-language {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
 }
 
 
